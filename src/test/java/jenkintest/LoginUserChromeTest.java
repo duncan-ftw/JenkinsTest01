@@ -22,7 +22,7 @@ public class LoginUserChromeTest {
 
         driver = new ChromeDriver();
         baseUrl = "http://127.0.0.1/";
-        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
     }
 
     @Test
